@@ -1,0 +1,13 @@
+// #1 Variables
+// #2 Mixins
+// #3 Normalize
+// sequence is important to apply code step to step
+
+
+@import 'variables';
+@import 'mixins';
+@import 'normalize';
+// @import '_normalize';
+// @import '_normalize.scss';
+
+@import 'devices/mobile';
