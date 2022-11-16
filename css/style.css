@@ -415,4 +415,9 @@ video {
     background-color: gainsboro;
     color: #108AC1;
   }
+  .features {
+    flex-direction: row;
+    -moz-column-gap: 5vh;
+         column-gap: 5vh;
+  }
 }/*# sourceMappingURL=style.css.map */
