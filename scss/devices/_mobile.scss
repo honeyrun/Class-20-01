@@ -311,7 +311,6 @@
             width: 90%;
         }
 
-
         [type="submit"] {
             padding: 2%;
             width: 40%;
@@ -329,7 +328,26 @@
             height: 25vh;
         }
      
+    }
 
+    footer {
+        padding: 5%;
+        width: 90%;
+        @include flexColumn;
+        row-gap: 1vh;        
+        align-items: center;
+
+        a {
+            text-decoration: none;
+            color: $defaultColor;
+            background-color: gainsboro;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 5vh;
+            height: 5vh;
+
+        }
     }
 
 
