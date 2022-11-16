@@ -15,6 +15,11 @@ main > section {
   flex-direction: column;
 }
 
+main > section {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
 details {
   display: none;
 }
@@ -128,5 +133,213 @@ video {
   .features h3 {
     font-size: 28px;
     font-weight: 400;
+  }
+  .activities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -moz-column-gap: 0;
+         column-gap: 0;
+    row-gap: 7vh;
+  }
+  .activities > article {
+    height: 22vh;
+    width: 90%;
+    background-image: url("/img/pic7.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .activities aside {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgba(50, 50, 50, 0.7);
+  }
+  .activities h2 {
+    font-size: 36px;
+  }
+  .activities > section {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -moz-column-gap: 0;
+         column-gap: 0;
+    row-gap: 5vh;
+  }
+  .activities figure {
+    padding: 5%;
+    width: 90%;
+    border: 1px solid #909090;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -moz-column-gap: 0;
+         column-gap: 0;
+    row-gap: 2vh;
+  }
+  .activities figcaption {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    line-height: 1.5;
+    color: #5F5F5F;
+    width: 85%;
+  }
+  .activities img {
+    width: 30vh;
+    height: 30vh;
+  }
+  .activities h4 {
+    color: #108AC1;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .company {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5vh;
+  }
+  .company > figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3vh;
+  }
+  .company img {
+    width: 100%;
+  }
+  .company > section {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .company figcaption {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -moz-column-gap: 0;
+         column-gap: 0;
+    row-gap: 4vh;
+    line-height: 1.5;
+  }
+  .company h2 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #5F5F5F;
+    text-align: left;
+  }
+  .company aside {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+  }
+  .company a {
+    border: 1px solid #5F5F5F;
+    font-weight: 400;
+    width: 40%;
+    padding: 2%;
+    font-size: 20px;
+    color: #5F5F5F;
+    text-decoration: none;
+    text-align: center;
+  }
+  .company > section > article {
+    display: flex;
+    width: 100%;
+  }
+  .company > section p {
+    width: 90%;
+    line-height: 1.5;
+  }
+  .company article > a {
+    width: 50%;
+  }
+  .company #vision, .company #mission {
+    border: 1px solid #5F5F5F;
+    flex-direction: column;
+    row-gap: 4vh;
+    width: 90%;
+    padding: 5%;
+  }
+  .company #mission {
+    display: none;
+  }
+  .company article > a:last-child {
+    background-color: gainsboro;
+    transition: 0.4s;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+  }
+  .contact > section,
+.contact form {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact > section {
+    align-items: center;
+    row-gap: 3vh;
+  }
+  .contact form {
+    row-gap: 2vh;
+    width: 90%;
+  }
+  .contact h4 {
+    width: 90%;
+    text-align: right;
+    font-size: 36px;
+    font-weight: 300;
+    color: #5F5F5F;
+  }
+  .contact aside {
+    display: flex;
+    justify-content: right;
+  }
+  .contact > figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3vh;
+  }
+  .contact > figure, .contact figcaption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact figcaption {
+    width: 90%;
+    color: #5F5F5F;
+  }
+  .contact img {
+    width: 90%;
+  }
+  .contact [type=submit] {
+    padding: 2%;
+    width: 40%;
+    background-color: white;
+    font-size: 24px;
+    color: #5F5F5F;
+  }
+  .contact input, .contact textarea {
+    border: 1px solid #909090;
+    padding: 2%;
+  }
+  .contact textarea {
+    height: 25vh;
   }
 }/*# sourceMappingURL=style.css.map */

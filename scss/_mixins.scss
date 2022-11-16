@@ -27,6 +27,20 @@
     row-gap: $row;
 }
 
+@mixin flexText {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin bgImage ($url) {
+    background-image: url($url);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 
 // to change last parameter, have to write all parameter's value
 // @include flexContent;
