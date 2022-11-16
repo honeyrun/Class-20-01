@@ -150,6 +150,7 @@ video {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
   }
   .activities aside {
     width: 100%;
@@ -341,5 +342,23 @@ video {
   }
   .contact textarea {
     height: 25vh;
+  }
+  footer {
+    padding: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+    align-items: center;
+  }
+  footer a {
+    text-decoration: none;
+    color: #5F5F5F;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5vh;
+    height: 5vh;
   }
 }/*# sourceMappingURL=style.css.map */

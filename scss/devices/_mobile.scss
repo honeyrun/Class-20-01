@@ -109,6 +109,7 @@
             height: 22vh;
             width: 90%;
             @include bgImage("/img/pic7.jpg");
+            background-attachment: fixed;
         }
 
         aside {
