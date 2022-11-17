@@ -111,16 +111,13 @@
         
         > section,
         > figure {
-            width: 50%;
-
+            justify-content: center;
+            padding: 0;
+            width: 100%;
         }
 
         form {
-            width: 70%;
-        }
-
-        input {
-            
+            width: 90%;
         }
 
         img {
