@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Open sans", san-serif;
+  font-family: "Open sans", sans-serif;
 }
 
 html {
@@ -18,10 +18,6 @@ main > section {
 main > section {
   padding-top: 5vh;
   padding-bottom: 5vh;
-}
-
-details {
-  display: none;
 }
 
 video {
@@ -76,6 +72,33 @@ video {
     font-size: 50px;
     font-weight: 300;
     text-transform: uppercase;
+  }
+  nav details {
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+  nav details > ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    z-index: 5;
+  }
+  nav details li {
+    display: flex;
+    width: 100%;
+  }
+  nav details a {
+    text-decoration: none;
+    color: #5F5F5F;
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+  }
+  nav summary {
+    font-size: 24px;
   }
   header {
     position: relative;
@@ -157,6 +180,7 @@ video {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
   }
   .activities aside {
     width: 100%;
@@ -394,6 +418,7 @@ video {
     justify-content: center;
     -moz-column-gap: 2vh;
          column-gap: 2vh;
+    margin: 0;
   }
   nav li {
     display: flex;
@@ -415,9 +440,87 @@ video {
     background-color: gainsboro;
     color: #108AC1;
   }
+  nav details {
+    display: none;
+  }
   .features {
     flex-direction: row;
     -moz-column-gap: 5vh;
          column-gap: 5vh;
+  }
+  .activities > article {
+    background-position: center;
+  }
+  .activities > section {
+    width: unset;
+  }
+  .activities figure {
+    flex-direction: row;
+    -moz-column-gap: 3vh;
+         column-gap: 3vh;
+    padding: 3%;
+  }
+  .activities img {
+    width: 15vh;
+    height: 15vh;
+  }
+  .company img {
+    width: 50%;
+  }
+  .company figcaption {
+    row-gap: 2vh;
+    align-items: flex-start;
+  }
+  .company figcaption a {
+    width: 25%;
+    font-size: 18px;
+    transition: 0.4s;
+  }
+  .company figcaption a:hover {
+    background-color: #909090;
+    color: white;
+  }
+  .company section > article:first-child {
+    width: 90%;
+  }
+  .contact {
+    padding-right: 5%;
+  }
+  .contact form {
+    width: 50%;
+  }
+  .contact > section {
+    align-items: flex-end;
+  }
+  .contact > figure {
+    align-items: flex-end;
+  }
+  .contact figcaption {
+    width: 50%;
+  }
+  .contact img {
+    height: 20vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: top;
+       object-position: top;
+    width: 50%;
+  }
+  .contact [type=submit] {
+    transition: 0.4s;
+  }
+  .contact [type=submit]:hover {
+    cursor: pointer;
+    background-color: #909090;
+    color: white;
+  }
+  .faq {
+    width: 100%;
+    align-items: center;
+  }
+  .faq > section {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */

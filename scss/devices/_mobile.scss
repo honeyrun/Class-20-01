@@ -41,6 +41,39 @@
             font-weight: 300;
             text-transform: uppercase;
         }
+
+        details {
+            width: 100%;
+            text-align: center;
+            position: relative;
+
+            > ul {
+               width: 100%;
+               @include flexColumn;
+               position: absolute;
+               background-color: white;
+               z-index: 5;
+            }
+      
+            li {
+               display: flex;
+               width: 100%;
+            }
+      
+            a {
+               text-decoration: none;
+               color: $defaultColor;
+               width: 100%;
+               padding: 2%;
+               text-align: center;
+            }
+
+        }
+
+        summary {
+            font-size: 24px;
+         }
+      
     }
 
     header {
@@ -116,6 +149,7 @@
             height: 22vh;
             width: 90%;
             @include bgImage("/img/pic7.jpg");
+            background-attachment: fixed;
         }
 
         aside {
