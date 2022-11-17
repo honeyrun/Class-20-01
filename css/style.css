@@ -593,4 +593,49 @@ video {
   .activities figure {
     width: 45%;
   }
+  .company {
+    flex-direction: row;
+    width: 80%;
+  }
+  .company > figure {
+    align-items: flex-start;
+    -moz-column-gap: 2vh;
+         column-gap: 2vh;
+    flex-direction: row;
+  }
+  .company img {
+    width: 45vh;
+    height: 45vh;
+  }
+  .company > section {
+    align-items: flex-end;
+  }
+  .company figcaption {
+    width: 60%;
+  }
+  .company figcaption a {
+    width: 40%;
+  }
+  .contact {
+    width: 80%;
+    flex-direction: row;
+    -moz-column-gap: 15vh;
+         column-gap: 15vh;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+  .contact > section,
+.contact > figure {
+    width: 50%;
+  }
+  .contact form {
+    width: 70%;
+  }
+  .contact img {
+    width: 100%;
+    height: 50vh;
+  }
+  .contact > figure {
+    align-items: flex-start;
+  }
 }/*# sourceMappingURL=style.css.map */
